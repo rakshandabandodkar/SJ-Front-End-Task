@@ -1,0 +1,284 @@
+header nav .navbar .left a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 2rem;
+transition: all .3s ease-in;
+font-size: 0.8rem;
+}
+header nav .navbar .left hr{
+    width: 100%;
+    height: 1px;
+    background-color:#898989;
+    margin-top: 1rem;
+}
+
+body{
+    height: 800px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smotthing:antialiased;
+}
+header{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url(../image/img13.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 14rem;
+    object-fit: fill;
+
+
+}
+.container {
+    text-align: center;
+    color: aliceblue;
+        max-width: 1152px;
+        padding: 0 15px;
+        margin: 0 auto;
+    
+ 
+}
+@media(min-width:576px){
+    .container{
+        max-width: 540px;
+    }
+}
+
+@media(min-width:768px){
+    .container{
+        max-width: 720px;
+    }
+}
+
+@media(min-width:992px){
+    .container{
+        max-width: 960px;
+    }
+}
+@media(min-width:1200x){
+    .container{
+        max-width: 1152px;
+    }
+}
+
+header nav .heading h1{
+    margin-top: 10rem;
+    font-size: 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 0.5rem;
+}
+header nav .heading p{
+    margin-bottom: 5rem;
+    font-size: 2rem;
+
+}
+header nav .logo img{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+}
+section.favorites{
+    background: white;
+}
+section.favorites .card-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+ grid-column-gap: 2rem;
+    grid-row-gap: 6rem;
+    margin-bottom: 5rem;
+
+}
+section.favorites .card-wrapper .card h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-top: 8rem;
+}
+section.favorites .card-wrapper .card p{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1;
+    font-size: 1;
+    
+}
+
+section.favorites .card-wrapper .card{
+    padding: 3rem 2rem;
+    padding-top: 3rem;
+    text-align: left;
+
+}
+
+.section-heading{
+    text-align: center;
+    margin-bottom: 3rem;
+    line-height: 0.5;
+    margin-top: 10rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.section-heading span{
+    color: orange;
+}
+section.favorites .card-wrapper .card1{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url(../image/img7.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section.favorites .card-wrapper .card2{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url(../image/img8.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section.favorites .card-wrapper .card3{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url(../image/img9.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section.favorites .card-wrapper .card4{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url(../image/img10.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.menu .card-wrapper .card{
+    padding: 3rem 2rem;
+    padding-top: 3rem;
+    text-align: left;
+    margin-bottom: 7rem;
+    text-transform: uppercase;
+
+}
+section.menu .card-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+ grid-column-gap: 2rem;
+    grid-row-gap: 6rem;
+    margin-bottom: 5rem;
+}
+section.menu .card-wrapper .card .overlay{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+}
+
+section.menu .card-wrapper .card h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-top: 12rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 5rem;
+    position: relative;
+}
+
+section.menu{
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.4)),url(../image/img13.jpg);
+
+}
+
+
+.section-heading2{
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-top: 16rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.section-heading2 span{
+    color: orange;
+}
+.section-heading2 h1{
+    margin-bottom: 7rem;
+}
+section.menu .card-wrapper .card1{
+    background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.4)),url(../image/drink.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+section.menu .card-wrapper .card2{
+    background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.4)),url(../image/snack.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section.menu .card-wrapper .card3{
+    background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(../image/lunch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section.reviews .hello h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+}
+section.reviews .hello h1 span{
+    color: orange;
+}
+section.reviews .hello p{
+    font-family: sans-serif;
+    color: black;
+    line-height: 1.9;
+    margin-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+    margin-left: 16rem;
+    margin-right: 16rem;
+   margin-bottom: 3rem;
+
+}
+section.reviews .hello hr{
+    width: 5%;
+    height: 5px;
+    background-color:black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 40em;
+    margin-right: 16rem;
+    
+}
+section.reserch .maps img{
+    height: 100%;
+    width: 100%;
+
+}
+footer{
+    background: black;
+    text-align: center;
+    padding:1rem 0;
+
+}
+footer .copyright{
+    color: white;
+}
+@media(max-width:576px){
+   
+    section.favorites .card-wrapper{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    section.menu .card-wrapper{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    section.reviews .hello p{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    
+    }
+    section.reviews .hello hr{
+        width: 30%;
+        height: 5px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 8em;
+        margin-right: 1rem;
+        
+    }
+
+}
